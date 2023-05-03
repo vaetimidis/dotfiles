@@ -6,7 +6,7 @@
 >  2. open your terminal
 >  3. cd ~/.config/kitty/
 >  4. sudo rm -rf kitty.conf
->  5. sudo cp /home[USERNAME]/Downloads/my-kitty-conf/kitty.conf ~/.config/kitty/
+>  5. sudo cp /home/[USERNAME]/Downloads/my-kitty-conf/kitty.conf ~/.config/kitty/
 >  6. reopen kitty terminal
 
 # i3
