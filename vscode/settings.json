@@ -1,0 +1,114 @@
+{
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////! Default
+    /* terminal */
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};${workspaceRoot}\\node_modules\\.bin;${env:PNPM_HOME}"
+    },
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+
+    /* workbench */
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+
+    /* editor */
+    "editor.linkedEditing": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.accessibilitySupport": "off",
+    "editor.wordWrap": "off",
+
+    /* explorer */
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    /* prettier */
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////!
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////~ git
+    /* git */
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+
+    /* gitlens */
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.avatars": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////~
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////? Languages
+    /* golang */
+    "go.toolsManagement.autoUpdate": true,
+    "[golang]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+
+    /* cpp */
+    "C_Cpp.default.intelliSenseMode": "linux-clang-x64",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+
+    /* react-native */
+    "react-native-tools.showUserTips": false,
+    "react-native-tools.networkInspector.consoleLogsColorTheme": "Dark",
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////?
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////TODO: bin
+    "remote.SSH.remotePlatform": {
+        "213.189.219.165": "linux"
+    },
+    "window.zoomLevel": -2,
+    "vsicons.dontShowNewVersionMessage": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.format.enable": true,
+    "code-gpt.apiKey": "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",
+    "CodeGPT.query.language": "Russian",
+    "security.workspace.trust.untrustedFiles": "open",
+    "sourcepawn.SourcemodHome": "/home/alukard/sourcemodAPI/addons/sourcemod/scripting/include",
+    "sourcepawn.SpcompPath": "/home/alukard/sourcemodAPI/addons/sourcemod/scripting/spcomp",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.wordWrap": "off",
+    "SourcePawnLanguageServer.includesDirectories": [
+        "/home/alukard/sourcemodAPI/addons/sourcemod/scripting/include"
+    ],
+    "SourcePawnLanguageServer.spcompPath": "/home/alukard/sourcemodAPI/addons/sourcemod/scripting/spcomp"
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////TODO
+}
